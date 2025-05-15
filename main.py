@@ -22,5 +22,7 @@ if choice == "yes":
     print()
 
 elif choice == "no":   
-    print(fake.name())
+    Print = fake.name().lower().replace(" ", "_")
+    randomNumber2 = str(random.randint(0, 100))
+    print(Print+randomNumber2)
     print()
